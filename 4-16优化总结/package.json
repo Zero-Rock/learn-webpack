@@ -1,0 +1,28 @@
+{
+  "name": "dive-into-webpack",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack-dev-server --inline false --hot",
+    "build": "webpack --config webpack-dist.config.js"
+  },
+  "dependencies": {
+    "antd": "^2.13.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "happypack": "^4.0.0",
+    "style-loader": "^0.18.2",
+    "ui-component-loader": "0.0.3",
+    "web-webpack-plugin": "^1.10.0",
+    "webpack": "^3.4.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-parallel-uglify-plugin": "^1.0.0"
+  }
+}

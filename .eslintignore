@@ -1,0 +1,6 @@
+src/**/router-config.js
+/static/
+/**/dist/
+/**/node_modules/
+/package.json
+/package-lock.json

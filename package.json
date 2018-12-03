@@ -1,0 +1,30 @@
+{
+  "name": "webpack_demos",
+  "version": "1.0.0",
+  "description": "深入浅出WebPack",
+  "main": "getFolders.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npm run lint:es && npm run lint-fix",
+    "lint:es": "eslint ./ --ext '.js,.jsx'",
+    "lint-fix": "eslint --fix ./* --ext '.js'"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "mobius",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "chalk": "^2.4.1",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-compat": "^2.5.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0",
+    "html-webpack-plugin": "^4.0.0-beta.3"
+  }
+}
