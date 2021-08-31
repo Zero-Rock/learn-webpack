@@ -1,4 +1,5 @@
 src/**/router-config.js
+.idea
 /static/
 /**/dist/
 /**/node_modules/
